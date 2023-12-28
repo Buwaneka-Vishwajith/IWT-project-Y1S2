@@ -1,0 +1,356 @@
+/*------------------------- Body -----------------------------*/
+body{
+    background-color: rgb(0, 52, 80);
+    background-image: url(./logos/newback.jpg);
+    background-size: cover;
+    background-position: center;
+}
+*{
+    padding-left: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgba(223, 222, 222, 0.806);
+    
+}
+
+/*------------------------- Navbar css ----------------------------*/
+
+.top{
+    position: fixed;
+    /* margin-bottom: 1000px; */
+    padding: 0 10 5 0;
+    height: 55px;
+    width: 100%;
+    background-color: rgba(27, 42, 59, 0.797);
+    backdrop-filter: blur(10px);
+    /* background-image: url(./logos/newback.jpg); */
+    /* background-size: cover;
+    background-position: center; */
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    width: 100%;
+    margin-right: 15px;
+    overflow: auto;
+}
+
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    margin-top: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Hlist{
+    float: left;
+}
+
+.logo{
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 20px;
+}
+
+.top a{
+
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    padding: 20px 35px 20px;
+    /* text-decoration: none; */
+    font-size: small;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+nav a:hover{
+
+    color: rgb(0, 255, 145);
+    background-color: rgba(0, 70, 128, 0.635);
+    border-radius: 30px;
+    border-style:hidden;
+    transition: 0.8s;
+}
+
+
+/*------------------------- Hero css ----------------------------*/
+
+/* .Hrow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} */
+
+.hero{
+    /* margin-top: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    /* background-color: red; */
+    /* margin-right: 15px; */
+    overflow: auto;
+}
+
+.Hrow{
+/* position: relative; */
+margin-top: 150px;
+/* margin-right: 50px; */
+display: flex;
+align-items: center;
+justify-content:space-between;
+justify-content: flex-end;
+}
+
+#Himage{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 100px;
+
+    
+} 
+
+#imagehero{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(55, 55, 55, 0.719);
+}
+
+
+.Htext{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 80px;
+}
+
+
+#Herotext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300%;
+    font-weight: bolder;
+    color: rgb(0, 255, 195);
+}
+#Herotext:hover{
+    color: rgb(255, 255, 255);
+    transition: 1.5s;
+}
+
+/*------------------------- why work with us css -----------------------------*/
+
+#Whytext{
+    display: flex ;
+    /* justify-content: space-between; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    /* margin: 50 50 50 20; */
+    padding: 3%;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.why{
+    width: 100%;
+}
+
+
+.Wtext{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    padding: 1%;
+}
+    
+
+
+.Wtext:hover{
+        
+    background-color: rgba(255, 255, 255, 0.425);
+    transition: 3s;
+} 
+
+#Whytext:hover{
+    color: black;
+    transition: 0.8s;
+}
+
+/*------------------------- Clients -----------------------------*/
+
+.clients{
+    background-color: rgba(20, 57, 89, 0.486);
+    padding: 6%;
+
+}
+.Crow{
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Ctext{
+    color: rgb(3, 255, 154);
+    font-size: 200%;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px ;
+}
+
+/*------------------------- what we do -----------------------------*/
+
+.do{
+    background-color: rgba(20, 43, 63, 0.596);
+    padding: 6%;
+
+}
+
+.Drow{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.card {
+    max-width: 300px;
+    border: 1px solid #00ff88;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-content h3 {
+    margin: 0 0 10px;
+}
+
+.card-content p {
+    margin: 0;
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+.cd:hover{
+    color: rgb(0, 255, 145);
+    font-size: larger;
+    font-weight: 400;
+    /* background-color: rgba(0, 70, 128, 0.635);
+    border-radius: 30px;
+    border-style:hidden; */
+    transition: 0.5s;
+}
+
+/*------------------------- Footer css -----------------------------*/
+
+footer{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgba(1, 24, 44, 0.653);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.list{
+    padding-right: 100px;
+}
+.Flist{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 15px;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Flist2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(206, 206, 206);
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start ;
+    width: 100%;
+    margin-right: 15px;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon{
+    padding-left: 15px;
+}
+.Fend ul li a{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    padding: 20px 35px 20px;
+    text-decoration: none;
+    font-size:large;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+.Fend{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.row a:hover{
+
+    color: rgb(0, 255, 145);
+   /* border-radius: 50px;
+    border-style: dashed;*/
+    transition: 0.8s;
+}
+
+#cop{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: small;
+}

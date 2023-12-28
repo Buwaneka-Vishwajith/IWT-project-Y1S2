@@ -1,0 +1,235 @@
+/*------------------------- Body -----------------------------*/
+body{
+    background-image: url(./images/price.jpg);
+    background-size: cover;
+    background-position: center;
+}
+*{
+    padding-left: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+
+    
+}
+
+/*------------------------- Navbar css ----------------------------*/
+
+.top{
+    position: fixed;
+    /* margin-bottom: 1000px; */
+    padding: 0 10 5 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(27, 42, 59, 0.797);
+    backdrop-filter: blur(10px);
+    /* background-image: url(./logos/newback.jpg); */
+    /* background-size: cover;
+    background-position: center; */
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    width: 100%;
+    margin-right: 15px;
+    overflow: auto;
+}
+
+ul{
+    padding: 0;
+    /* margin: 0 0 0 150px; */
+    margin-top: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Hlist{
+    float: left;
+}
+
+.logo{
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 20px;
+}
+
+.top a{
+
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    padding: 20px 35px 20px;
+    /* text-decoration: none; */
+    font-size: small;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+nav a:hover{
+
+    color: rgb(0, 255, 145);
+    background-color: rgba(0, 70, 128, 0.635);
+    border-radius: 30px;
+    border-style:hidden;
+    transition: 0.8s;
+}
+
+/*--------------pricing--------------------*/
+
+.text1{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-top: 100px;
+}
+
+#pak{
+    color: antiquewhite;
+}
+.pricing {
+    display: flex;
+    justify-content: space-around;
+    /* padding-top: 100px; */
+    /* margin: 50px; */
+    padding-bottom: 50px;
+}
+
+.package {
+
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    margin: 10px;
+    margin-top: 50px;
+    background-color: #ffffffbc;
+}
+
+.package h2 {
+    font-size: 24px;
+}
+
+.price {
+    font-size: 20px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #00ffd9;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*------------------------- Footer css -----------------------------*/
+
+footer{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgba(1, 24, 44, 0.653);
+    backdrop-filter: blur(3px);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.list{
+    padding-right: 100px;
+}
+.Flist{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 15px;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Flist2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(206, 206, 206);
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start ;
+    width: 100%;
+    margin-right: 15px;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon{
+    padding-left: 15px;
+}
+.Fend ul li a{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    padding: 20px 35px 20px;
+    text-decoration: none;
+    font-size:large;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+.Fend{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.row a:hover{
+
+    color: rgb(0, 255, 145);
+   /* border-radius: 50px;
+    border-style: dashed;*/
+    transition: 0.8s;
+}
+
+#cop{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: small;
+}
+
