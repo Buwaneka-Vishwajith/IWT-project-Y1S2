@@ -1,0 +1,48 @@
+.blog-article {
+    border: 4px solid #000409;
+    padding: 20px;
+    margin: 30px;
+    background-color: #37bdde;
+    cursor: pointer; 
+    transition: background-color 0.2s; 
+}
+
+.blog-article:hover {
+    background-color: rgb(236, 255, 32); 
+}
+
+.blog-article img {
+    max-width: 100%;
+    height: auto;
+}
+.comment {
+    max-width: 100px;
+    height: 200px;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.container {
+    color: #010101;
+} 
+input
+{
+    color: #000000;
+}
+button {
+    color: #100101;
+}
+
+textarea
+{
+    color: #100101;
+}
+p{
+    color: #100101;
+}
+h2
+{
+    color: #100101;
+}

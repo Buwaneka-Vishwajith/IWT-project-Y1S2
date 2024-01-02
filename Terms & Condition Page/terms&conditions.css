@@ -1,0 +1,309 @@
+/*------------------------- Body -----------------------------*/
+body{
+    background-image: url(./logos/newback.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgba(223, 222, 222, 0.806);
+    
+}
+
+/*------------------------- Navbar css ----------------------------*/
+
+.top{
+    padding: 10 10 10 10;
+    height: 170vh;
+    width: 100%;
+    /* background-image: url(./logos/newback.jpg); */
+    /* background-size: cover;
+    background-position: center; */
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    width: 100%;
+    margin-right: 15px;
+    overflow: auto;
+}
+
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    margin-top: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Hlist{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.top a{
+
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    padding: 20px 35px 20px;
+    /* text-decoration: none; */
+    font-size:large;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+nav a:hover{
+
+    color: rgb(0, 255, 145);
+   /* border-radius: 50px;
+    border-style: dashed;*/
+    transition: 0.8s;
+}
+
+
+
+
+/*terms and conditions*/
+:root {
+    background-color: black;
+    --white: #fff;
+    --primary-text-clr: #212121;
+    --secondary-text-clr:  #8c8c8c ;
+    --bg-hvr: #5803c7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body{
+    /*background: url(./logos/newback.jpg);*/
+    font-size: 12px;
+   
+}
+
+.flex_align_justify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex_align{
+    display: flex;
+    align-items: center;
+}
+
+.wrapper{
+    min-height: 100vh;
+    padding: 0 20px;
+}
+
+.terms_conditions{
+    width: 1000px;
+    max-width: 500px;
+    height: 500px;
+    background-color: black;
+    color: #fff;
+}
+
+.terms_conditions .tc_item{
+    padding: 20px 40px;
+}
+
+.terms_conditions .tc_head .icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+.terms_conditions .tc_body{
+    height: calc(100% - 170px);
+    overflow-y: auto;
+    font-size: 12px;
+    font-weight: 500;
+    padding-right: 20px;
+}
+
+.terms_conditions .tc_body::-webkit-scrollbar{
+    width: 5px;
+    background-color: #282828;
+}
+
+.terms_conditions .tc_body::-webkit-scrollbar-thumb{
+    background-color: #d13639;
+}
+
+
+.terms_conditions .tc_body ol li{
+    margin-bottom: 20px;
+}
+
+.terms_conditions .tc_body ol li h3{
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.terms_conditions .tc_body ol li p{
+    color: gray;
+    font-size: 12px
+}
+
+.terms_conditions h4{
+    font-size: 14px;
+    text-align: center;
+    padding: 0 40px;
+
+}
+
+.terms_conditions h4 span{
+    color: #d13639;
+}
+
+.terms_conditions .tc_foot{
+    box-shadow: 0 -1px 2px rgba(0,0,0,0.15);
+    justify-content: space-between;
+    height: 80px;
+}
+
+.terms_conditions .tc_foot button{
+    width: 100%;
+    border: 1px solid var(--white);
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+
+.terms_conditions .tc_foot button.decline_button{
+    margin-right: 20px;
+    background-color: black;
+    color: #fff;
+}
+
+.terms_conditions .tc_foot button.accept_button{
+    background-color: black;
+    color: #fff;
+}
+
+.terms_conditions .tc_foot button.decline_button:hover{
+    background-color: white;
+    color:black;
+}
+
+.terms_conditions .tc_foot button.accept_button:hover{
+    background-color: white;
+    color:black;
+}
+
+
+
+
+
+/*------------------------- Footer css -----------------------------*/
+
+footer{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgba(1, 24, 44, 0.653);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.list{
+    padding-right: 100px;
+}
+.Flist{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 15px;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Flist2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(206, 206, 206);
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start ;
+    width: 100%;
+    margin-right: 15px;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon{
+    padding-left: 15px;
+}
+.Fend ul li a{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    padding: 20px 35px 20px;
+    text-decoration: none;
+    font-size:large;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+.Fend{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.row a:hover{
+
+    color: rgb(0, 255, 145);
+   /* border-radius: 50px;
+    border-style: dashed;*/
+    transition: 0.8s;
+}
+
+#cop{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: small;
+}

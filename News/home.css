@@ -1,0 +1,167 @@
+/*------------------------- Body -----------------------------*/
+body{
+    background-color: rgb(0, 52, 80);
+    background-image: url(./photos/logos/newback.jpg);
+    background-size: cover;
+    background-position: center;
+}
+*{
+    padding-left: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgba(223, 222, 222, 0.806);
+    
+}
+
+/*------------------------- Navbar css ----------------------------*/
+
+.top{
+    position: fixed;
+    margin-bottom: 1000px; 
+    padding: 0 10 5 0;
+    height: 55px;
+    width: 100%;
+    background-color: rgba(27, 42, 59, 0.797);
+    backdrop-filter: blur(10px);
+    background-image: url(./photos/logos/newback.jpg); 
+    background-size: cover;
+    background-position: center; 
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    width: 100%;
+    margin-right: 15px;
+    overflow: auto;
+}
+
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    margin-top: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Hlist{
+    float: left;
+}
+
+.logo{
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 20px;
+}
+
+.top a{
+
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    padding: 20px 35px 20px;
+    /* text-decoration: none; */
+    font-size: small;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+nav a:hover{
+
+    color: rgb(0, 255, 145);
+    background-color: rgba(0, 70, 128, 0.635);
+    border-radius: 30px;
+    border-style:hidden;
+    transition: 0.8s;
+}
+
+
+
+
+/*------------------------- Footer css -----------------------------*/
+
+footer{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgba(1, 24, 44, 0.653);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.list{
+    padding-right: 100px;
+}
+.Flist{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 15px;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Flist2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(206, 206, 206);
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start ;
+    width: 100%;
+    margin-right: 15px;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon{
+    padding-left: 15px;
+}
+.Fend ul li a{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    padding: 20px 35px 20px;
+    text-decoration: none;
+    font-size:large;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+.Fend{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.row a:hover{
+
+    color: rgb(0, 255, 145);
+   /* border-radius: 50px;
+    border-style: dashed;*/
+    transition: 0.8s;
+}
+
+#cop{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: small;
+}

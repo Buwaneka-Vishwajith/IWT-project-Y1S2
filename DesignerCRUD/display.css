@@ -1,0 +1,260 @@
+/*------------------------- Body -----------------------------*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgba(163, 163, 163, 0.806);
+}
+
+/*------------------------- Hero css ----------------------------*/
+
+.hero{
+    padding: 10 10 10 10;
+    height: 100vh;
+    width: 100%;
+    background-image: url(./logos/newback.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    width: 100%;
+    margin-right: 15px;
+    overflow: auto;
+}
+
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    margin-top: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Hlist{
+    float: left;
+}
+
+.logo{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.hero a{
+
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    padding: 20px 35px 20px;
+    /* text-decoration: none; */
+    font-size:large;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+nav a:hover{
+
+    color: rgb(0, 255, 145);
+   /* border-radius: 50px;
+    border-style: dashed;*/
+    transition: 0.8s;
+}
+
+
+
+/* Apply some basic styling to the container */
+.dis {
+    align-items: center;
+    justify-content: center;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 5%;
+
+  }
+
+
+.table {
+    
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: lightgray;
+    text-align: justify;
+    
+}
+  
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr, th{
+    text-align: left;
+    color: black;
+}
+
+td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    color: black;
+    padding: 8px;
+    width: auto;
+}
+
+.add{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    padding: 2px;
+    align-items: center;
+    margin-bottom: 5px;
+    background-color: lightseagreen;
+
+}
+
+.add :hover{
+    background-color: black;
+}
+
+
+.button12{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+
+/*.button12{
+    width: 100%;
+    border: 1px ;
+    padding: 10px 20px;
+    border-radius: 3px;
+    display: flex;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+} */
+
+.button12 .btn1{
+    margin: 2px;
+    display: flex;
+    margin-right: 20px;
+    background-color: green;
+    color: #fff;
+}
+
+.button12 .btn2{
+    display: flex;
+    margin-right: 20px;
+    background-color: red;
+    color: #fff;
+}
+
+.button12 .btn1:hover{
+    background-color: black;
+   
+}
+
+.button12 .btn2:hover{
+    background-color: black;
+    
+}
+
+
+/*------------------------- Footer css -----------------------------*/
+
+footer{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgba(1, 24, 44, 0.943);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.list{
+    padding-right: 100px;
+}
+.Flist{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 15px;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Flist2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(176, 176, 176);
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start ;
+    width: 100%;
+    margin-right: 15px;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon{
+    padding-left: 15px;
+}
+.Fend ul li a{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    padding: 20px 35px 20px;
+    text-decoration: none;
+    font-size:large;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+.Fend{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.row a:hover{
+
+    color: rgb(0, 255, 145);
+   /* border-radius: 50px;
+    border-style: dashed;*/
+    transition: 0.8s;
+}
+
+#cop{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: small;
+}

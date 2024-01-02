@@ -1,0 +1,269 @@
+/*------------------------- Body -----------------------------*/
+body{
+    background-image: url(./logos/digital-marketing.webp);
+    background-size: cover;
+    background-position: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgba(223, 222, 222, 0.806);
+    
+}
+
+/*------------------------- Navbar css ----------------------------*/
+
+.top{
+    padding: 10 10 10 10;
+    height: 100vh;
+    width: 100%;
+    /* background-image: url(./logos/newback.jpg); */
+    /* background-size: cover;
+    background-position: center; */
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    width: 100%;
+    margin-right: 15px;
+    overflow: auto;
+}
+
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    margin-top: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Hlist{
+    float: left;
+}
+
+.logo{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.top a{
+
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    padding: 20px 35px 20px;
+    /* text-decoration: none; */
+    font-size:large;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+nav a:hover{
+
+    color: rgb(0, 255, 145);
+   /* border-radius: 50px;
+    border-style: dashed;*/
+    transition: 0.8s;
+}
+
+.pform {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    color:black;
+    font-size:xx-large;
+}
+
+.formg {
+    margin-bottom: 15px;
+}
+
+label {
+    display: flex;
+    display: block;
+    font-weight: bold;
+    color: black;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn{
+    display:block;
+    width: 150px;
+    padding:10px 5px;
+    background-color: #007BFF;
+    color:#fff;
+    border: none;
+    border-radius: 10px;
+    font-size:18px;
+    cursor: pointer;
+    margin:100px 100px;
+    
+}
+
+.btext{
+    color: white;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color:lightgray;
+    text-align: justify;
+}
+  
+td, th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color:black;
+}
+.btnu1{
+    display: block;
+    width: auto;
+    padding:4px;
+    background-color: #007BFF;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.btnu2{
+    display: block;
+    width: auto;
+    padding:4px;
+    background-color: red;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.full{
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px splid #ccc;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+  
+ /*---------------------- Footer css -----------------------------*/
+
+footer{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgba(1, 24, 44, 0.653);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.list{
+    padding-right: 100px;
+}
+.Flist{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 15px;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Flist2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(206, 206, 206);
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start ;
+    width: 100%;
+    margin-right: 15px;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon{
+    padding-left: 15px;
+}
+.Fend ul li a{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    padding: 20px 35px 20px;
+    text-decoration: none;
+    font-size:large;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+.Fend{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.row a:hover{
+
+    color: rgb(0, 255, 145);
+   /* border-radius: 50px;
+    border-style: dashed;*/
+    transition: 0.8s;
+}
+
+#cop{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: small;
+}

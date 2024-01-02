@@ -1,0 +1,8 @@
+.comment label, .comment input, .comment textarea, .comment button {
+    color: black;
+}
+
+.container .blog-article h2,
+.container .blog-article p {
+    color: black;
+}

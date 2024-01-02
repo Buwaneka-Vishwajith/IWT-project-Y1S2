@@ -1,216 +1,254 @@
 /*------------------------- Body -----------------------------*/
-body{
-    background-color: rgb(0, 52, 80);
-    background-image: url(./logos/newback.jpg);
-    background-size: cover;
-    background-position: center;
+body {
+  background-color: rgb(0, 52, 80);
+  background-image: url(./logos/newback.jpg);
+  background-size: cover;
+  text-decoration: none;
+  background-position: center;
 }
-*{
-    padding-left: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    text-decoration: none;
-    color: rgba(223, 222, 222, 0.806);
-    
+* {
+  padding-left: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  
+  color: rgba(223, 222, 222, 0.806);
 }
 
 /*------------------------- Navbar css ----------------------------*/
 
-.top{
-    position: fixed;
-    /* margin-bottom: 1000px; */
-    padding: 0 10 5 0;
-    height: 55px;
-    width: 100%;
-    background-color: rgba(27, 42, 59, 0.797);
-    backdrop-filter: blur(10px);
-    /* background-image: url(./logos/newback.jpg); */
-    /* background-size: cover;
+.top {
+  position: fixed;
+  /* margin-bottom: 1000px; */
+  padding: 0 10 5 0;
+  height: 55px;
+  width: 100%;
+  background-color: rgba(27, 42, 59, 0.797);
+  backdrop-filter: blur(10px);
+  /* background-image: url(./logos/newback.jpg); */
+  /* background-size: cover;
     background-position: center; */
-    
 }
 
-nav{
-    display: flex;
-    align-items: center;
-    justify-content:flex-end;
-    width: 100%;
-    margin-right: 15px;
-    overflow: auto;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  margin-right: 15px;
+  overflow: auto;
 }
 
-ul{
-    padding: 0;
-    margin: 0 0 0 150px;
-    margin-top: 0px;
-    list-style: none;
-    text-decoration: none;
+ul {
+  padding: 0;
+  margin: 0 0 0 150px;
+  margin-top: 0px;
+  list-style: none;
+  text-decoration: none;
 }
 
-.Hlist{
-    float: left;
+li a{
+  text-decoration: none;
+  
 }
 
-.logo{
-    position: absolute;
-    margin-top: 11px;
-    margin-left: 20px;
+.Hlist {
+  float: left;
 }
 
-.top a{
-
-    display: flex;
-    align-items:flex-end;
-    justify-content: space-between;
-    padding: 20px 35px 20px;
-    /* text-decoration: none; */
-    font-size: small;
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
-    color: aliceblue;
-    text-align: center;
+.logo {
+  position: absolute;
+  margin-top: 11px;
+  margin-left: 20px;
 }
 
-nav a:hover{
+.top a {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 20px 35px 20px;
+  /* text-decoration: none; */
+  font-size: small;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  text-align: center;
+}
 
-    color: rgb(0, 255, 145);
-    background-color: rgba(0, 70, 128, 0.635);
+nav a:hover {
+  color: rgb(0, 255, 145);
+  /* background-color: rgba(0, 70, 128, 0.635);
     border-radius: 30px;
-    border-style:hidden;
-    transition: 0.8s;
+    border-style:hidden; */
+  transition: 0.8s;
 }
 
 /*-------------admin-----------------db-----*/
 
 .dashboard {
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
-    /* margin: 50px; */
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
 }
 
+.some {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .section {
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    padding: 20px;
-    width: 100%;
-    margin: 10px;
-    background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  background-color: #f9f9f965;
 }
 
 h2 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+.messages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin-left: 0px;
 }
 
 li {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
-.message, .project {
-    font-size: 16px;
+.message,
+.project {
+  font-size: 16px;
 }
 
 .message.new {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .message.new:before {
-    content: "New ";
-    color: #007bff;
+  content: "New ";
+  color: #007bff;
+}
+
+.table-responsive {
+  margin: 20px;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+    border-radius: 10px;
+}
+.msgs{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+#inb:hover{
+  color: #00ffa2;
+  transition: 0.5s;
 }
 
 
 
+#ru:hover{
+  color: #007bff;
+  transition: 0.5s;
 
-
-
-
-
-
+}
 /*------------------------- Footer css -----------------------------*/
 
-footer{
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    background-color: rgba(1, 24, 44, 0.653);
+footer {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: rgba(1, 24, 44, 0.653);
 }
 
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.row123 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-.list{
-    padding-right: 100px;
+.list {
+  padding-right: 100px;
 }
-.Flist{
-
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 100%;
-    margin-right: 15px;
-    overflow: auto;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.Flist2{
-
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(206, 206, 206);
-    font-weight: 300;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start ;
-    width: 100%;
-    margin-right: 15px;
-    overflow: auto;
-    font-family: Arial, Helvetica, sans-serif;
+.Flist {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  margin-right: 15px;
+  overflow: auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.icon{
-    padding-left: 15px;
-}
-.Fend ul li a{
-    display: flex;
-    align-items:flex-end;
-    justify-content: space-between;
-    padding: 20px 35px 20px;
-    text-decoration: none;
-    font-size:large;
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
-    color: aliceblue;
-    text-align: center;
-}
-.Fend{
-
-    font-family: Arial, Helvetica, sans-serif;
-    color: aliceblue;
+.Flist2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(206, 206, 206);
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-right: 15px;
+  overflow: auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.row a:hover{
+.Flist2 a{
+  color: aliceblue;
+}
 
-    color: rgb(0, 255, 145);
-   /* border-radius: 50px;
+.icon {
+  padding-left: 15px;
+}
+.Fend ul li a {
+  text-decoration: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 20px 35px 20px;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  text-align: center;
+}
+.Fend {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+.ad:hover {
+  color: rgb(0, 255, 145);
+  /* border-radius: 50px;
     border-style: dashed;*/
-    transition: 0.8s;
+  transition: 0.8s;
 }
 
-#cop{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    font-size: small;
+#cop {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: small;
 }

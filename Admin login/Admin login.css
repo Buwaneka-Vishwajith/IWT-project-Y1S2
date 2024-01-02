@@ -1,0 +1,140 @@
+/*------------------------- Body -----------------------------*/
+
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+body{
+  background-image: url(./logos/newback.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/*------------------------- Hero css ----------------------------*/
+.hero{
+  padding: 10 10 10 10;
+  height: 100vh;
+  width: 100%;
+  margin-top: 15%;
+  
+  
+}
+/*................login form................*/
+
+.Login {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px;
+  }
+
+  /* .log{
+    width: 100px;
+  } */
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
+  input {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    /* margin-right: 10px; */
+    background-color: #000000 ;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .login-form {
+    margin-top: 30px;
+  }
+  
+  /*.login-form a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: #3b5998;
+    color: #fff;
+    cursor: pointer;
+  }*/
+  
+
+  
+  #ck{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .forget-password {
+  
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  
+  #rememberMe{
+    padding-top: 1px;
+    padding-left: 2px;
+    margin-bottom: 5px;
+    width: 20px;
+  }
+  
+  #logos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  h4{
+    padding-top: 5px;
+    margin-bottom: 0px;
+  }
+  h1{
+    color: #000000c0;
+  }
+  
+  button{
+    border-radius: 10px;
+    width: 100%;
+    color: #ffffff;
+  
+  }
+  
+  button:hover{
+    background-color: rgb(0, 255, 128);
+    transition: 1s;
+    color:black;
+  }
+  
